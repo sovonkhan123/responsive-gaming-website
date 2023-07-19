@@ -187,6 +187,11 @@ nav > div {
     align-items: center;
     height: 50px;
 }
+.bonus:hover {
+    border: 2px solid #4EC5F7;
+    color: #a52170;
+    border-radius: 30px;
+}
 
 .last-images {
     height: 35px;
