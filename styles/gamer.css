@@ -96,5 +96,30 @@ text-transform: uppercase;
     height: 40px;
     width: 100px;
 }
+.my-games {
+    text-align: center;
+    margin-top: 110px;
+}
+
+.third-imgs {
+    display: flex;
+    margin: 40px 155px;
+    align-items: center;
+    gap: 20px;
+}
+.online-games {
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 700;
+
+}
+.funny-video {
+    color: #a52170;
+}
+
+.download {
+    height: 320px;
+    width: 280px;
+}
 
 
