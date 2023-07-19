@@ -169,9 +169,9 @@ nav > div {
 
 .last-section {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     padding-left: 155px;
-    padding-right: 100px;
+    padding-right: 0px;
     gap: 20px;
     background-color: #f7e6e6;
     justify-content: center;
@@ -249,3 +249,66 @@ nav > div {
     color: #FFF;
 }
 
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    .third-imgs {
+        flex-direction: column;
+        grid-template-columns: repeat (2, 1fr);
+    }
+    .second-section {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .navigation-ber, nav > div,
+    .second {
+        flex-direction: column;
+    }
+    .second-img {
+        width: 100%;
+    }
+    .click {
+        width: 100%;
+    }
+    .my-games {
+        width: 100%;
+    }
+    .third-imgs {
+        flex-direction: column;
+    }
+    .second-section {
+        flex-direction: column;
+        padding-top: 0px;
+    }
+    
+    .big-image {
+        margin-left: 0px;
+        width: 85%;
+    }
+    .phone {
+        padding: 0px;
+    }
+    .last-section {
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 0px;
+        width: 100%;
+    }
+    .second {
+        padding: 20px;
+    }
+    .small-image {
+        width: 130px;
+        position: relative;
+        bottom: 145px;
+        left: 165px;
+    }
+    .last-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 30px 0px;
+        color: #FFF;
+    }
+}
