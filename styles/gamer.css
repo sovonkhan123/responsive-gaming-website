@@ -13,9 +13,9 @@ nav > div {
 }
 .nav-title {
     text-align: center;
-font-family: Work Sans;
-font-size: 35px;
-font-weight: 700;
+    font-family: Work Sans;
+    font-size: 35px;
+    font-weight: 700;
 }
 .frist-logo {
     height: 30px;
@@ -28,14 +28,15 @@ font-weight: 700;
     display: flex;
     list-style: none;
     color: #3C354F;
-text-align: center;
-font-size: 18px;
-font-weight: 500;
-gap: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    gap: 20px;
 }
 .developer {
     gap: 20px;
 }
+
 .follow {
     display: flex;
     align-items: center;
@@ -57,30 +58,28 @@ gap: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 150px;
+    padding: 0px 150px;
     padding-top: 10px;
-    background-color: #FFF;
+    background-image: url("../images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-size: 700px;
 }
 .second-img {
     height: 530px;
 }
-.click {
     
-    
-}
 .second-title {
     color: #0B0223;
-font-family: Work Sans;
-font-size: 23px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-transform: uppercase;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 25px;
 }
 .animal {
-    font-size: 45px;
+    font-size: 60px;
     align-items: center;
     color: #a52170;
+    line-height: 25px;
 }
 .sign-in {
     border-radius: 48px;
@@ -111,15 +110,142 @@ text-transform: uppercase;
     font-family: Work Sans;
     font-size: 38px;
     font-weight: 700;
+    line-height: 30px;
 
 }
 .funny-video {
     color: #a52170;
 }
-
 .download {
     height: 320px;
     width: 280px;
 }
 
+.second-section {
+    display: flex;
+    margin-top: 80px;
+}
+
+.phone {
+    padding: 100px 200px;
+}
+
+.big-image {
+    width: 480px;
+    height: 480px;
+    margin-left: 155px;
+}
+
+.small-image {
+    height: 220px;
+    width: 190px;
+    position: relative;
+    bottom: 145px;
+    left: 515px;
+}
+.play {
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 20px; 
+    color: #F948B2;
+}
+.anywhere {
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 700; 
+    line-height: 20px;
+}
+.anytime {
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.online {
+    color: #6d39e6;
+}
+
+.last-section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-left: 155px;
+    padding-right: 100px;
+    gap: 20px;
+    background-color: #f7e6e6;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 14px;
+}
+
+.bonus {
+    display: flex;
+    gap: 10px;
+    line-height: 20px;
+    align-items: center;
+    height: 50px;
+}
+
+.last-images {
+    height: 35px;
+}
+
+.no-section {
+    background-color: #0B0223;
+    padding-bottom: 30px;
+}
+
+.last-logo {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 20px;
+}
+
+.nav-title-no{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.last-content {
+     display: flex;
+     justify-content: center;
+     gap: 40px;
+     padding: 30px 0px;
+     color: #FFF;
+}
+.youtube {
+    height: 30px;
+    width: 30px;
+}
+
+.last-logos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.terms {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 25px;
+    color: #FFF;
+}
+
+.finish {
+    display: flex;
+    justify-content: center;
+    line-height: 10px;
+    color: #dad3d3;
+}
+.color {
+    color: #FFF;
+}
 
