@@ -102,8 +102,9 @@ nav > div {
 
 .third-imgs {
     display: flex;
-    margin: 40px 155px;
+    margin: 30px;
     align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 .online-games {
@@ -119,6 +120,21 @@ nav > div {
 .download {
     height: 320px;
     width: 280px;
+}
+
+.play-img {
+    height: 50px;
+    background-color: ghostwhite;
+    border-radius: 50%;
+    position: relative;
+    bottom: 135px;
+    right: 165px;
+}
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .second-section {
@@ -170,8 +186,6 @@ nav > div {
 .last-section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding-left: 155px;
-    padding-right: 0px;
     gap: 20px;
     background-color: #f7e6e6;
     justify-content: center;
@@ -262,6 +276,12 @@ nav > div {
     .second-section {
         flex-direction: column;
     }
+    .last-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
 }
 
 
@@ -274,7 +294,9 @@ nav > div {
         width: 100%;
     }
     .click {
-        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
     }
     .my-games {
         width: 100%;
@@ -293,6 +315,9 @@ nav > div {
     }
     .phone {
         padding: 0px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
     }
     .last-section {
         grid-template-columns: repeat(2, 1fr);
@@ -306,7 +331,7 @@ nav > div {
         width: 130px;
         position: relative;
         bottom: 145px;
-        left: 165px;
+        left: 270px;
     }
     .last-content {
         flex-direction: column;
